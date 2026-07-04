@@ -1,0 +1,29 @@
+[
+  {
+    "cve": "CVE-2026-10001",
+    "cvss": 9.8,
+    "exploited": true,
+    "internet_exposed": true,
+    "asset_criticality": "critical",
+    "affected_asset": "vpn-gateway-01",
+    "summary": "Remote code execution in externally exposed VPN gateway."
+  },
+  {
+    "cve": "CVE-2026-10002",
+    "cvss": 7.5,
+    "exploited": false,
+    "internet_exposed": true,
+    "asset_criticality": "high",
+    "affected_asset": "customer-portal",
+    "summary": "Authentication bypass requiring specific configuration."
+  },
+  {
+    "cve": "CVE-2026-10003",
+    "cvss": 5.3,
+    "exploited": false,
+    "internet_exposed": false,
+    "asset_criticality": "medium",
+    "affected_asset": "internal-wiki",
+    "summary": "Information disclosure in internal documentation platform."
+  }
+]
