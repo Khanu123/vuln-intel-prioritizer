@@ -15,6 +15,10 @@ Real security teams cannot patch everything instantly. They need risk-based prio
 - Exports a Markdown report.
 - Includes tests and sample data.
 
+## Example Report
+
+See [docs/examples/example_vulnerability_priorities.md](docs/examples/example_vulnerability_priorities.md) for a rendered sample prioritization report.
+
 ## Quick Start
 
 ```bash
