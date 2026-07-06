@@ -23,6 +23,10 @@ Real security teams cannot patch everything instantly. They need risk-based prio
 
 See [docs/examples/example_vulnerability_priorities.md](docs/examples/example_vulnerability_priorities.md) for a rendered sample prioritization report.
 
+## Active Roadmap
+
+See [Roadmap](ROADMAP.md) for planned improvements and maintenance direction.
+
 ## Quick Start
 
 ```bash
