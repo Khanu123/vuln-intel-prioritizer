@@ -1,5 +1,9 @@
 # Vulnerability Intelligence Prioritizer
 
+![Project Type](https://img.shields.io/badge/Project-Flagship-blue) ![Focus](https://img.shields.io/badge/Focus-Vulnerability%20Management-green) ![Difficulty](https://img.shields.io/badge/Difficulty-Intermediate-orange)
+
+![Report preview](docs/screenshots/report-preview.png)
+
 Vulnerability Intelligence Prioritizer ranks vulnerabilities by severity, known exploitation, internet exposure, and asset criticality. It turns a flat CVE list into an action plan.
 
 ## Why Employers Like This
