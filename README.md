@@ -1,9 +1,18 @@
-# Vulnerability Intelligence Prioritizer
+﻿# Vulnerability Intelligence Prioritizer
 
 ![Project Type](https://img.shields.io/badge/Project-Flagship-blue) ![Focus](https://img.shields.io/badge/Focus-Vulnerability%20Management-green) ![Difficulty](https://img.shields.io/badge/Difficulty-Intermediate-orange)
 
 ![Report preview](docs/screenshots/report-preview.png)
 
+## Employer Review
+
+| Area | Evidence |
+| --- | --- |
+| Target role | Vulnerability Management / Security Operations |
+| Strongest proof | CVE prioritisation logic, SLA assignment, screenshot preview, tests |
+| Start here | [docs/screenshots/report-preview.png](docs/screenshots/report-preview.png) |
+| Deeper review | [docs/employer-review.md](docs/employer-review.md) |
+| Roadmap | [docs/roadmap.md](docs/roadmap.md) |
 Vulnerability Intelligence Prioritizer ranks vulnerabilities by severity, known exploitation, internet exposure, and asset criticality. It turns a flat CVE list into an action plan.
 
 ## Why Employers Like This
