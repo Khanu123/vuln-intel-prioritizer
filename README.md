@@ -22,10 +22,11 @@ Real security teams cannot patch everything instantly. They need risk-based prio
 ## Features
 
 - Loads vulnerability data from JSON.
-- Combines CVSS, exploitation status, exposure, and asset criticality.
+- Combines CVSS, KEV/known exploitation, EPSS, public exploit availability, exposure, asset criticality, finding age, and compensating controls.
 - Produces a priority score.
+- Shows an explainable score breakdown and records the source of every input.
 - Assigns remediation SLAs.
-- Exports a Markdown report.
+- Exports Markdown and machine-readable JSON reports.
 - Includes tests and sample data.
 
 ## Example Report
@@ -49,6 +50,7 @@ python -m unittest discover -s tests -v
 - Vulnerability management
 - Risk scoring
 - Asset criticality modeling
+- KEV/EPSS enrichment modeling and compensating-control analysis
 - Python data processing
 - Security reporting
 

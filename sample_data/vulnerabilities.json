@@ -6,7 +6,14 @@
     "internet_exposed": true,
     "asset_criticality": "critical",
     "affected_asset": "vpn-gateway-01",
-    "summary": "Remote code execution in externally exposed VPN gateway."
+    "summary": "Synthetic remote code execution finding in an externally exposed VPN gateway.",
+    "epss": 0.94,
+    "kev_listed": true,
+    "public_exploit": true,
+    "fix_available": true,
+    "compensating_control": false,
+    "days_open": 4,
+    "data_source": "synthetic KEV/EPSS-enriched lab record"
   },
   {
     "cve": "CVE-2026-10002",
@@ -15,7 +22,14 @@
     "internet_exposed": true,
     "asset_criticality": "high",
     "affected_asset": "customer-portal",
-    "summary": "Authentication bypass requiring specific configuration."
+    "summary": "Synthetic authentication bypass requiring specific configuration.",
+    "epss": 0.31,
+    "kev_listed": false,
+    "public_exploit": false,
+    "fix_available": true,
+    "compensating_control": false,
+    "days_open": 18,
+    "data_source": "synthetic vulnerability scanner record"
   },
   {
     "cve": "CVE-2026-10003",
@@ -24,6 +38,45 @@
     "internet_exposed": false,
     "asset_criticality": "medium",
     "affected_asset": "internal-wiki",
-    "summary": "Information disclosure in internal documentation platform."
+    "summary": "Synthetic information disclosure in an internal documentation platform.",
+    "epss": 0.02,
+    "kev_listed": false,
+    "public_exploit": false,
+    "fix_available": false,
+    "compensating_control": true,
+    "days_open": 45,
+    "data_source": "synthetic vulnerability scanner record"
+  },
+  {
+    "cve": "CVE-2026-10004",
+    "cvss": 8.1,
+    "exploited": false,
+    "internet_exposed": false,
+    "asset_criticality": "critical",
+    "affected_asset": "identity-service-01",
+    "summary": "Synthetic privilege-escalation finding on a critical identity service.",
+    "epss": 0.12,
+    "kev_listed": false,
+    "public_exploit": true,
+    "fix_available": true,
+    "compensating_control": false,
+    "days_open": 35,
+    "data_source": "synthetic red-team validation record"
+  },
+  {
+    "cve": "CVE-2026-10005",
+    "cvss": 4.3,
+    "exploited": false,
+    "internet_exposed": false,
+    "asset_criticality": "low",
+    "affected_asset": "training-app-01",
+    "summary": "Synthetic low-impact issue in an isolated training application.",
+    "epss": 0.01,
+    "kev_listed": false,
+    "public_exploit": false,
+    "fix_available": true,
+    "compensating_control": true,
+    "days_open": 10,
+    "data_source": "synthetic vulnerability scanner record"
   }
 ]
