@@ -13,3 +13,4 @@ jobs:
         with:
           python-version: "3.12"
       - run: PYTHONPATH=src python -m unittest discover -s tests -v
+      - run: PYTHONPATH=src python -m vuln_intel_prioritizer.cli --out docs/examples/example_vulnerability_priorities.md --json docs/examples/example_vulnerability_priorities.json
